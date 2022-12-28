@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/photo-gallery/static/js/main.dddcec3e.js",
+    "index.html": "/photo-gallery/index.html",
+    "main.dddcec3e.js.map": "/photo-gallery/static/js/main.dddcec3e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.dddcec3e.js"
+  ]
+}
