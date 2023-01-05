@@ -1,12 +1,18 @@
 import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Contact from "./component/Contact";
+import GallaryReact from "./component/GallaryReact";
 
-
-function App() {
+const App= ()=> {
   return (
-    <div className="App">
-     <h1>hello</h1>
-    </div>
-  );
-}
+  <BrowserRouter>
+  <Routes>
+  <Route path="/photo-gallery" element={<GallaryReact />} />
+  <Route path="/contact" element={<Contact />} />
+
+  </Routes>
+  </BrowserRouter>
+  )
+};
 
 export default App;

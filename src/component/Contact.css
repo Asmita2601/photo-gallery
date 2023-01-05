@@ -1,0 +1,106 @@
+
+  .link{ 
+    text-decoration: none;
+    color: whitesmoke;
+  }  
+/*   
+  .main2{
+  background-color: black;
+  } */
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .box{
+    /* margin-left: 450px; */
+    border: 2px solid;
+    width: 400px;
+    height: 515px;
+    padding-left: 20px;
+    background-color: rgb(56, 54, 54);
+    border-radius: 15px;
+  }
+  .btnn{
+    width: 350px;
+    height: 30px;
+    color: white;
+    font-size: medium;
+    background-color:  rgb(245, 177, 4) ;
+    border-color: rgb(245, 177, 4) ;
+    border-radius: 20px;
+    border-bottom: whitesmoke 2px solid;
+  }
+  .btnn:hover{
+    color: black;
+    background-color: rgb(209, 160, 37) ; 
+    border-color:black;
+    border-bottom: whitesmoke 2px solid;
+  }
+  h3{
+    color: white;
+    margin-top: 1px;
+  }
+  input[type=text],[type=email]{
+    width: 350px;
+    color:white;
+    height: 25px;
+    border-radius: 15px;
+    background-color: black;
+    border-color: black;
+    margin-bottom: 4px;
+  }
+  
+  placeholder{
+    color: white;
+  }
+  /* input::placeholder{
+    color:whitesmoke;
+  } */
+  .heading{
+    text-align: center;
+    color: black;
+  }
+  .go-back{
+    position: relative;
+    left: 19rem;
+    top: 1.5rem;
+}
+
+
+ b{
+  color: rgb(245, 177, 4);
+ }
+  .line{
+  width: 100px;
+  border-color: rgb(245, 177, 4);
+  }
+  button.back-button {
+    border-radius: 15px;
+    height: 2rem;
+    position: relative;
+   
+}
+  /* ==============phone================== */
+ @media (max-width: 769px) {
+  .box{
+    border: 2px solid;
+    width: 340px;
+    height: 435px;
+    padding-left: 20px;
+    border-radius: 15px;
+  }
+  input[type=text], [type=email] {
+    width: 300px;
+    height: 25px;
+    border-radius: 15px;
+    margin-bottom: 4px;
+}
+.btnn {
+  width: 300px;
+  height: 30px;
+}
+h3 {
+  margin-top: 4px;
+}
+ }
